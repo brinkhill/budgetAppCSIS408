@@ -15,6 +15,11 @@ const allList = document.querySelector("#all .list");
 const expense = document.querySelector("#expenses");
 const income = document.querySelector("#income");
 const all = document.querySelector("#all");
+//add income
 const addIncome = document.querySelector(".add-income");
 const incomeTitle = document.getElementById("income-title-input");
 const incomeAmount = document.getElementById("income-amount-input");
+//add expense
+const addExpense = document.querySelector(".add-expense");
+const expenseTitle = document.getElementById("expense-title-input");
+const expenseAmount = document.getElementById("expense-amount-input");
