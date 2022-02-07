@@ -1,0 +1,23 @@
+.container {
+  border: 3px solid black;
+  height: 700px;
+  width: 390px;
+  justify-content: center;
+  display: inline-block;
+  vertical-align: middle;
+  /* margin-left: 550px;
+  margin-right: 550px; */
+}
+
+.top {
+  border: 3px solid black;
+}
+
+.bottom {
+  border: 3px solid black;
+}
+
+#body {
+  display: inline-block;
+  vertical-align: middle;
+}
