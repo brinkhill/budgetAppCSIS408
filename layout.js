@@ -6,18 +6,11 @@ const text = document.getElementById("text");
 const amount = document.getElementById("amount");
 const money_minus = document.getElementById("money-minus");
 
-// const randomTransations=[
-//     {id:1,text:'salary',amount:400},
-//     {id:2,text:'books',amount:-50},
-//     {id:3,text:'paper',amount:-20},
-//     {id:4,text:'food',amount:-100},
-// ]
 const localStorageTransations = JSON.parse(localStorage.getItem("transations"));
 
 let transations =
   localStorage.getItem("transations") !== null ? localStorageTransations : [];
 
-//add transation
 function addTransation(e) {
   e.preventDefault();
   if (text.value.trim() === "" || amount.value.trim() === "") {

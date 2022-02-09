@@ -74,6 +74,10 @@ label {
   font-size: large;
   font-weight: bold;
 }
+
+#explain {
+  font-size: medium;
+}
 input[type="text"],
 input[type="number"] {
   border: 1px solid var(--last);
